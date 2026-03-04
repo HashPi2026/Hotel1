@@ -88,7 +88,7 @@ export default function Navbar() {
 
             {/* Book Now Button & Mobile Menu */}
             <div className="flex items-center gap-4">
-              <Link to="/booking" data-testid="book-now-btn">
+              <Link to="https://destininnsuites.bookmystay.io" data-testid="book-now-btn">
                 <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-6 py-2 font-medium shadow-md hover:shadow-lg transition-all duration-300 hidden sm:flex">
                   Book Now
                 </Button>

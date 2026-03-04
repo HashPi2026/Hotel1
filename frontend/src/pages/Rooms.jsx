@@ -101,11 +101,11 @@ export default function Rooms() {
 
                 {/* Details */}
                 <div className={`${index % 2 === 1 ? "lg:order-1" : ""}`}>
-                  <div className="flex items-center gap-3 mb-4">
+                  {/* <div className="flex items-center gap-3 mb-4">
                     <span className="px-4 py-1 rounded-full bg-accent/10 text-accent text-sm font-medium">
                       From ${room.price}/night
                     </span>
-                  </div>
+                  </div> */}
                   <h3 className="font-heading text-2xl md:text-3xl font-semibold text-gray-900 mb-4">
                     {room.name}
                   </h3>

@@ -5,7 +5,7 @@ const quickLinks = [
   { name: "Rooms & Rates", path: "/rooms" },
   { name: "Amenities", path: "/amenities" },
   { name: "Gallery", path: "/gallery" },
-  { name: "Book Now", path: "/booking" },
+  { name: "Book Now", path: "https://destininnsuites.bookmystay.io" },
 ];
 
 const exploreLinks = [

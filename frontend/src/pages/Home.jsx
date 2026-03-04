@@ -112,7 +112,7 @@ export default function Home() {
               {heroSlides[currentSlide].subtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
-              <Link to="/booking" data-testid="hero-book-now">
+              <Link to="https://destininnsuites.bookmystay.io" data-testid="hero-book-now">
                 <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-10 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   Book Now
                 </Button>
