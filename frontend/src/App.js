@@ -17,7 +17,7 @@ import Contact from "@/pages/Contact";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
-import Chatbot from "./components/Chatbot";
+
 
 function App() {
   return (
@@ -26,7 +26,6 @@ function App() {
         <BrowserRouter>
           <ScrollToTop />
           <Navbar />
-          <Chatbot />
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
