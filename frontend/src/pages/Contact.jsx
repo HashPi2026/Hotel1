@@ -260,8 +260,8 @@ export default function Contact() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-center">
             <div>
               <p className="text-white/70 text-sm mb-1">Call Us</p>
-              <a href="tel:+18505551234" className="text-xl font-semibold hover:text-accent transition-colors">
-                (850) 650-2236, (877) 650-2233
+              <a href="tel:+18506502236" className="text-xl font-semibold hover:text-accent transition-colors">
+                (850) 650-2236
               </a>
             </div>
             <div className="hidden md:block w-px h-10 bg-white/20"></div>

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import king from "../photo/KING 4.jpg";
 import queen from "../photo/QUEEN 2.jpg";
 import suite from "../photo/SUITE 5.jpg";
+import ada from "../photo/KING 1.jpg";
 import banner from "../photo/2ND FLOOR LOBBY.jpg";
 import { Users, Bed, Check, Maximize } from "lucide-react";
 
@@ -18,7 +19,7 @@ const rooms = [
     price: 99,
     capacity: 2,
     beds: "1 King Bed",
-    size: "320 sq ft",
+    
     amenities: ["Smoke-Free Room","Free WiFi", "Flat-screen TV", "Mini Fridge", "Coffee Maker", "Microwave", "Air Conditioning"]
   },
   {
@@ -29,19 +30,32 @@ const rooms = [
     price: 119,
     capacity: 4,
     beds: "2 Queen Beds",
-    size: "380 sq ft",
+   
     amenities: ["Smoke-Free Room","Free WiFi", "Flat-screen TV", "Mini Fridge", "Coffee Maker", "Microwave", "Air Conditioning"]
   },
   {
     id: "suite",
-    name: "Non-Smoking Suite",
+    name: "Non-Smoking 2 Queen Suite",
     image: suite,
     description: "Ideal for families or groups, this spacious suite features two comfortable queen-size beds, a cozy living area, a fully equipped kitchenette, and a modern bathroom for a relaxing stay.",
     price: 109,
     capacity: 4,
     beds: "2 Queen Bed",
-    size: "340 sq ft",
+    
     amenities: ["Smoke-Free Room","Free WiFi", "Flat-screen TV", "Mini Fridge","Coffee Maker", "Microwave", "Air Conditioning","Work Desk with Chair","Electric Cooktop/Stove","Breakfast Bar with Seating"]
+  },
+    {
+    
+    id: "ada",
+    name: "Non-Smoking King ADA",
+    image: ada,
+    description: "Fully accessible room with mobility features, roll-in shower, and grab bars for guest comfort.",
+    price: 109,
+    capacity: 2,
+    beds: "1 King Bed",
+  
+    amenities: ["ADA Accessible", "Roll-in Shower", "Grab Bars", "Free WiFi", "Flat-screen TV", "Mini Fridge"]
+  
   }
 ];
 
@@ -121,10 +135,10 @@ export default function Rooms() {
                       <Bed className="w-5 h-5 text-primary" />
                       <span>{room.beds}</span>
                     </div>
-                    <div className="flex items-center gap-2 text-gray-700">
+                    {/* <div className="flex items-center gap-2 text-gray-700">
                       <Maximize className="w-5 h-5 text-primary" />
                       <span>{room.size}</span>
-                    </div>
+                    </div> */}
                   </div>
 
                   {/* Amenities */}
@@ -162,7 +176,7 @@ export default function Rooms() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
               <h4 className="font-heading text-xl font-semibold text-gray-900 mb-2">Check-in Time</h4>
-              <p className="text-gray-600">3:00 PM</p>
+              <p className="text-gray-600">4:00 PM</p>
             </div>
             <div>
               <h4 className="font-heading text-xl font-semibold text-gray-900 mb-2">Check-out Time</h4>

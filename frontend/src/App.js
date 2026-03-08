@@ -10,6 +10,8 @@ import Rooms from "@/pages/Rooms";
 import Gallery from "@/pages/Gallery";
 import About from "@/pages/About";
 import Amenities from "@/pages/Amenities";
+import Restaurants from "@/pages/Restaurants";
+import Nearby from "@/pages/Nearby";
 import Contact from "@/pages/Contact";
 
 
@@ -34,7 +36,8 @@ function App() {
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/about" element={<About />} />
               <Route path="/amenities" element={<Amenities />} />
-              
+              <Route path="/restaurants" element={<Restaurants />} />
+              <Route path="/nearby" element={<Nearby />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </main>

@@ -6,10 +6,11 @@ const quickLinks = [
   { name: "Amenities", path: "/amenities" },
   { name: "Gallery", path: "/gallery" },
   { name: "Book Now", path: "https://destininnsuites.bookmystay.io" },
+  { name: "About Us", path: "/about" },
 ];
 
 const exploreLinks = [
-  { name: "About Us", path: "/about" },
+  ,
   { name: "Nearby Attractions", path: "/nearby" },
   { name: "Restaurants", path: "/restaurants" },
   { name: "Contact Us", path: "/contact" },
@@ -50,8 +51,11 @@ export default function Footer() {
             </div> */}
           </div>
 
+          
+
           {/* Quick Links */}
           <div>
+            
             <h4 className="font-heading text-lg font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
@@ -83,9 +87,9 @@ export default function Footer() {
             <h4 className="font-heading text-lg font-semibold mb-6">Contact Us</h4>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+18505551234" className="flex items-start gap-3 text-gray-400 hover:text-white transition-colors" data-testid="footer-phone">
+                <a href="tel:+18506502236" className="flex items-start gap-3 text-gray-400 hover:text-white transition-colors" data-testid="footer-phone">
                   <Phone className="w-5 h-5 mt-0.5 text-accent" />
-                  <span>(850) 650-2236, (877) 650-2233</span>
+                  <span>(850) 650-2236</span>
                 </a>
               </li>
               <li>

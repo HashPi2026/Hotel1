@@ -170,7 +170,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-28 bg-primary text-white">
+      {/* <section className="py-20 md:py-28 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-heading text-3xl md:text-4xl font-bold mb-6">
             Ready to Experience Destine Inn?
@@ -178,13 +178,13 @@ export default function About() {
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
             Book your stay today and discover why guests keep coming back
           </p>
-          <Link to="/booking" data-testid="about-book-now">
+          <Link to="https://destininnsuites.bookmystay.io" data-testid="about-book-now">
             <Button className="bg-white text-primary hover:bg-gray-100 rounded-full px-10 py-6 text-lg font-medium shadow-lg">
               Book Your Stay
             </Button>
           </Link>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

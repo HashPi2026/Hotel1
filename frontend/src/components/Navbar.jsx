@@ -8,6 +8,8 @@ const navLinks = [
   { name: "Rooms", path: "/rooms" },
   { name: "Amenities", path: "/amenities" },
   { name: "Gallery", path: "/gallery" },
+  {name: "Restaurants", path: "/restaurants" },
+  {name: "Nearby Places", path: "/nearby" },
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" },
 ];
@@ -127,7 +129,7 @@ export default function Navbar() {
                   {link.name}
                 </Link>
               ))}
-              <Link to="/booking" className="mt-4" data-testid="mobile-book-now-btn">
+              <Link to="https://destininnsuites.bookmystay.io" className="mt-4" data-testid="mobile-book-now-btn">
                 <Button className="w-full bg-primary hover:bg-primary/90 text-white rounded-full py-3 font-medium">
                   Book Now
                 </Button>

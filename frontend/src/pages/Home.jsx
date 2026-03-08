@@ -5,9 +5,10 @@ import { Button } from "@/components/ui/button";
 import image1 from "../photo/MOTEL SIGN.jpg";
 import image2 from "../photo/MOTEL EXTERIOR 2.jpg";
 import image3 from "../photo/POOL 1.jpg";
-import king from "../photo/KING 1.jpg";
+import king from "../photo/KING 2.jpg";
 import queen from "../photo/QUEEN 1.jpg";
 import suite from "../photo/SUITE 3.jpg";
+import ada from "../photo/KING 1.jpg";
 import { ChevronLeft, ChevronRight, MapPin, Star, Users, Ban, Waves, Car, Wifi, Coffee, Shield, ArrowRight } from "lucide-react";
 
 const Booking_engine_URL = process.env.REACT_APP_BOOKING_URL;
@@ -57,9 +58,16 @@ const rooms = [
     image: queen,
   },
   {
-    id: "ada",
-    name: "Non Smoking Suite",
+    id: "Suite",
+    name: "Non Smoking 2 QueenSuite",
     image: suite,
+  },
+  {
+    
+    id: "ada",
+    name: "Non Smoking King ADA",
+    image: ada,
+    
   }
 ];
 
@@ -380,7 +388,7 @@ export default function Home() {
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
             Book your stay today and experience the best of Destin, Florida
           </p>
-          <Link to="/booking" data-testid="cta-book-now">
+          <Link to="https://destininnsuites.bookmystay.io" data-testid="cta-book-now">
             <Button className="bg-white text-primary hover:bg-gray-100 rounded-full px-12 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               Book Your Stay
             </Button>
