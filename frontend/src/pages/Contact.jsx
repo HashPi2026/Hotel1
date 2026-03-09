@@ -36,8 +36,8 @@ export default function Contact() {
   return (
     <div data-testid="contact-page">
       <Helmet>
-        <title>Contact Us | Destine Inn & Suites - Destin, FL</title>
-        <meta name="description" content="Contact Destine Inn & Suites in Destin, Florida. Call (850) 555-1234 or email us. Find directions and get answers to your questions." />
+        <title>Contact Us | Destin Inn & Suites - Destin, FL</title>
+        <meta name="description" content="Contact Destin Inn & Suites in Destin, Florida. Call (850) 555-1234 or email us. Find directions and get answers to your questions." />
       </Helmet>
 
       {/* Hero */}
@@ -77,7 +77,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-                    <a href="tel:+18505551234" className="text-gray-600 hover:text-primary transition-colors" data-testid="contact-phone">
+                    <a href="tel:+18506502236" className="text-gray-600 hover:text-primary transition-colors" data-testid="contact-phone">
                       (850) 650-2236, (877) 650-2233
                     </a>
                   </div>

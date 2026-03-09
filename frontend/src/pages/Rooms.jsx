@@ -35,7 +35,7 @@ const rooms = [
   },
   {
     id: "suite",
-    name: "Non-Smoking 2 Queen Suite",
+    name: "Non-Smoking 2 Queen Suit",
     image: suite,
     description: "Ideal for families or groups, this spacious suite features two comfortable queen-size beds, a cozy living area, a fully equipped kitchenette, and a modern bathroom for a relaxing stay.",
     price: 109,
@@ -63,8 +63,8 @@ export default function Rooms() {
   return (
     <div data-testid="rooms-page">
       <Helmet>
-        <title>Rooms & Suites | Destine Inn & Suites - Destin, FL</title>
-        <meta name="description" content="Browse our comfortable rooms at Destine Inn & Suites. Choose from King rooms, Double Queens, and ADA accessible options starting at $99/night." />
+        <title>Rooms & Suites | Destin Inn & Suites - Destin, FL</title>
+        <meta name="description" content="Browse our comfortable rooms at Destin Inn & Suites. Choose from King rooms, Double Queens, and ADA accessible options starting at $99/night." />
       </Helmet>
 
       {/* Hero Section */}

@@ -67,7 +67,7 @@ export default function Navbar() {
                 <span className="text-white font-heading text-xl font-bold">DI</span>
               </div>
               <div className="hidden sm:block">
-                <h1 className="font-heading text-xl font-semibold text-gray-900 leading-tight">Destine Inn</h1>
+                <h1 className="font-heading text-xl font-semibold text-gray-900 leading-tight">Destin Inn</h1>
                 <p className="text-xs text-gray-500 tracking-wide">& Suites</p>
               </div>
             </Link>

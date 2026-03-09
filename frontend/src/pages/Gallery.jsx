@@ -211,8 +211,8 @@ export default function Gallery() {
   return (
     <div data-testid="gallery-page">
       <Helmet>
-        <title>Photo Gallery | Destine Inn & Suites - Destin, FL</title>
-        <meta name="description" content="View photos of Destine Inn & Suites - our rooms, pool, beach views, and hotel exterior. See why guests love our Destin, Florida hotel." />
+        <title>Photo Gallery | Destin Inn & Suites - Destin, FL</title>
+        <meta name="description" content="View photos of Destin Inn & Suites - our rooms, pool, beach views, and hotel exterior. See why guests love our Destin, Florida hotel." />
       </Helmet>
 
       {/* Hero */}

@@ -204,14 +204,7 @@ const shops = [
     "distance": "5.49 miles",
     "mapLink": "https://www.google.com/maps/search/Destin+Commons+Destin+Florida"
   },
-  {
-    "name": "Santa Rosa Mall",
-    "type": "Shopping Mall",
-    "address": "300 Mary Esther Blvd, Mary Esther, FL",
-    "description": "Indoor shopping mall with retail stores, dining spots, and local businesses.",
-    "distance": "8.5 miles",
-    "mapLink": "https://www.google.com/maps/search/Santa+Rosa+Mall+Mary+Esther+Florida"
-  },
+  
   {
     "name": "Silver Sands Factory Stores",
     "type": "Outlet Mall",
@@ -234,8 +227,8 @@ export default function Restaurants() {
   return (
     <div data-testid="restaurants-page">
       <Helmet>
-        <title>Restaurants & Shops | Destine Inn & Suites - Destin, FL</title>
-        <meta name="description" content="Find the best restaurants and shops near Destine Inn & Suites. Fresh seafood, casual dining, and shopping all within minutes of our hotel." />
+        <title>Restaurants & Shops | Destin Inn & Suites - Destin, FL</title>
+        <meta name="description" content="Find the best restaurants and shops near Destin Inn & Suites. Fresh seafood, casual dining, and shopping all within minutes of our hotel." />
       </Helmet>
 
       {/* Hero */}
@@ -381,9 +374,9 @@ export default function Restaurants() {
             Stay Close to It All
           </h2>
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
-            Book your stay at Destine Inn and enjoy easy access to the best of Destin
+            Book your stay at Destin Inn and enjoy easy access to the best of Destin
           </p>
-          <Link to="/booking" data-testid="restaurants-book-now">
+          <Link to="https://destininnsuites.bookmystay.io" data-testid="restaurants-book-now">
             <Button className="bg-white text-primary hover:bg-gray-100 rounded-full px-10 py-6 text-lg font-medium shadow-lg">
               Book Your Stay
             </Button>

@@ -31,7 +31,7 @@ export default function Footer() {
                 <span className="text-white font-heading text-xl font-bold">DI</span>
               </div>
               <div>
-                <h3 className="font-heading text-xl font-semibold">Destine Inn</h3>
+                <h3 className="font-heading text-xl font-semibold">Destin Inn</h3>
                 <p className="text-xs text-gray-400 tracking-wide">& Suites</p>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} Destine Inn & Suites. All rights reserved.
+            © {new Date().getFullYear()} Destin Inn & Suites. All rights reserved.
           </p>
           <div>
               <p className="text-gray-500 text-sm">

@@ -73,11 +73,6 @@ const amenities = [
     description: "Local and long-distance calling available"
   },
   {
-    icon: Shield,
-    name: "Safe & Secure",
-    description: "24-hour security and electronic door locks"
-  },
-  {
     icon: Clock,
     name: "24/7 Front Desk",
     description: "Friendly staff available around the clock"
@@ -88,8 +83,8 @@ export default function Amenities() {
   return (
     <div data-testid="amenities-page">
       <Helmet>
-        <title>Amenities | Destine Inn & Suites - Destin, FL</title>
-        <meta name="description" content="Discover amenities at Destine Inn & Suites - free WiFi, parking, outdoor pool, and more. Everything you need for a comfortable stay in Destin." />
+        <title>Amenities | Destin Inn & Suites - Destin, FL</title>
+        <meta name="description" content="Discover amenities at Destin Inn & Suites - free WiFi, parking, outdoor pool, and more. Everything you need for a comfortable stay in Destin." />
       </Helmet>
 
       {/* Hero */}
@@ -245,7 +240,7 @@ export default function Amenities() {
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
             Book your room and enjoy all our amenities
           </p>
-          <Link to="/booking" data-testid="amenities-book-now">
+          <Link to="https://destininnsuites.bookmystay.io" data-testid="amenities-book-now">
             <Button className="bg-white text-primary hover:bg-gray-100 rounded-full px-10 py-6 text-lg font-medium shadow-lg">
               Book Your Stay
             </Button>

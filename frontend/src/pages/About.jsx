@@ -32,8 +32,8 @@ export default function About() {
   return (
     <div data-testid="about-page">
       <Helmet>
-        <title>About Us | Destine Inn & Suites - Destin, FL</title>
-        <meta name="description" content="Learn about Destine Inn & Suites - your family-owned hotel near the beautiful beaches of Destin, Florida. Over 20 years of hospitality." />
+        <title>About Us | Destin Inn & Suites - Destin, FL</title>
+        <meta name="description" content="Learn about Destin Inn & Suites - your family-owned hotel near the beautiful beaches of Destin, Florida. Over 20 years of hospitality." />
       </Helmet>
 
       {/* Hero */}
@@ -59,11 +59,11 @@ export default function About() {
             <div>
               <p className="font-accent text-xl text-accent mb-3">Our Story</p>
               <h2 className="font-heading text-3xl md:text-4xl font-semibold text-gray-900 mb-6">
-                Welcome to Destine Inn & Suites
+                Welcome to Destin Inn & Suites
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Nestled in the heart of Destin, Florida, Destine Inn & Suites has been welcoming guests to the beautiful Emerald Coast for over two decades. Our family-owned property combines the warmth of Southern hospitality with modern comfort and convenience.
+                  Nestled in the heart of Destin, Florida, Destin Inn & Suites has been welcoming guests to the beautiful Emerald Coast for over two decades. Our family-owned property combines the warmth of Southern hospitality with modern comfort and convenience.
                 </p>
                 <p>
                   Located just minutes from the world-famous white sand beaches that make Destin a premier vacation destination, we offer the perfect base for your Florida getaway. Whether you're here for a family beach vacation, a romantic escape, or a business trip, we're committed to making your stay memorable.

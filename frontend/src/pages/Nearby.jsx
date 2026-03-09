@@ -156,8 +156,8 @@ export default function Nearby() {
   return (
     <div data-testid="nearby-page">
       <Helmet>
-        <title>Nearby Attractions | Destine Inn & Suites - Destin, FL</title>
-        <meta name="description" content="Explore beaches, shopping, and attractions near Destine Inn & Suites. Henderson Beach, Destin Commons, and more just minutes away." />
+        <title>Nearby Attractions | Destin Inn & Suites - Destin, FL</title>
+        <meta name="description" content="Explore beaches, shopping, and attractions near Destin Inn & Suites. Henderson Beach, Destin Commons, and more just minutes away." />
       </Helmet>
 
       {/* Hero */}
@@ -275,7 +275,7 @@ export default function Nearby() {
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
             Book your stay and start your Destin adventure
           </p>
-          <Link to="/booking" data-testid="nearby-book-now">
+          <Link to="https://destininnsuites.bookmystay.io" data-testid="nearby-book-now">
             <Button className="bg-white text-primary hover:bg-gray-100 rounded-full px-10 py-6 text-lg font-medium shadow-lg">
               Book Your Stay
             </Button>

@@ -59,7 +59,7 @@ const rooms = [
   },
   {
     id: "Suite",
-    name: "Non Smoking 2 QueenSuite",
+    name: "Non Smoking 2 Queen Suit",
     image: suite,
   },
   {
@@ -87,8 +87,8 @@ export default function Home() {
   return (
     <div data-testid="home-page">
       <Helmet>
-        <title>Destine Inn & Suites - Beach Hotel in Destin, FL</title>
-        <meta name="description" content="Welcome to Destine Inn & Suites, your gateway to the white sand beaches of Destin, Florida. Book your beach getaway today!" />
+        <title>Destin Inn & Suites - Beach Hotel in Destin, FL</title>
+        <meta name="description" content="Welcome to Destin Inn & Suites, your gateway to the white sand beaches of Destin, Florida. Book your beach getaway today!" />
       </Helmet>
 
       {/* Hero Section */}
