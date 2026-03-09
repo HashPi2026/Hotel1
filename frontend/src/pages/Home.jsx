@@ -59,7 +59,7 @@ const rooms = [
   },
   {
     id: "Suite",
-    name: "Non Smoking 2 Queen Suit",
+    name: "Non Smoking 2 Queen Suite",
     image: suite,
   },
   {

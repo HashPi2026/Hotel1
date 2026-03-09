@@ -78,7 +78,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
                     <a href="tel:+18506502236" className="text-gray-600 hover:text-primary transition-colors" data-testid="contact-phone">
-                      (850) 650-2236, (877) 650-2233
+                      (850) 650-2236
                     </a>
                   </div>
                 </div>

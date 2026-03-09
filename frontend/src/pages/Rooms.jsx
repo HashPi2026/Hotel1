@@ -35,7 +35,7 @@ const rooms = [
   },
   {
     id: "suite",
-    name: "Non-Smoking 2 Queen Suit",
+    name: "Non-Smoking 2 Queen Suite",
     image: suite,
     description: "Ideal for families or groups, this spacious suite features two comfortable queen-size beds, a cozy living area, a fully equipped kitchenette, and a modern bathroom for a relaxing stay.",
     price: 109,
